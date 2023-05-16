@@ -16,3 +16,4 @@ int login(regist login1[],int ,char * username,char * password);
 void game();
 void  checkLanjut(char *,int );
 void system_clear();
+
