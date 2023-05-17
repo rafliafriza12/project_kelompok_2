@@ -54,7 +54,7 @@ fclose(fp);
 
 int countSizeBinary(int size,regist login1){
     FILE * bin;
-    bin = fopen("./assets/login.bin","rb");
+    bin = fopen("./database/login.bin","rb");
     if(bin==NULL){
         printf("Tidak Bisa Membuka FIle");
         exit(1);
