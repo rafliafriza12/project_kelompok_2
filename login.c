@@ -27,3 +27,5 @@ int login(regist login2[],int size,char * username,char * password){
     fclose(bin);
     return (result);
 }
+
+
