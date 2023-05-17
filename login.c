@@ -6,7 +6,7 @@
 int login(regist login2[],int size,char * username,char * password){
     int result;
     FILE * bin;
-    bin = fopen("login.bin","rb");
+    bin = fopen("./database/login.bin","rb");
     if(bin==NULL){
         printf("File Tidak Dapat Dibuka...\n");
     }
