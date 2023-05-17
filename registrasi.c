@@ -5,7 +5,7 @@
 
 void registrasi(signUp regis){
 FILE *fp ;
-fp = fopen("./database/login.bin","ab");
+fp = fopen("login.bin","ab");
 
 if(fp== NULL){
     printf("Error opening file\n");
