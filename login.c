@@ -6,7 +6,7 @@
 int login(regist login2[],int size,char * username,char * password){
     int result;
     FILE * bin;
-    bin = fopen("./assets/login.bin","rb");
+    bin = fopen("login.bin","rb");
     if(bin==NULL){
         printf("File Tidak Dapat Dibuka...\n");
     }
@@ -27,3 +27,5 @@ int login(regist login2[],int size,char * username,char * password){
     fclose(bin);
     return (result);
 }
+
+
